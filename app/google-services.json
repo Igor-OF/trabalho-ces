@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "24021168035",
+    "firebase_url": "https://trabalho-ces.firebaseio.com",
+    "project_id": "trabalho-ces",
+    "storage_bucket": "trabalho-ces.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:24021168035:android:55ad9e8905900ff2",
+        "android_client_info": {
+          "package_name": "com.studio.igor.trabalhoces"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "24021168035-hfgu2spcatb7cmufqb4p5tm4lmcsavh2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.studio.igor.trabalhoces",
+            "certificate_hash": "04feeaa283e0cd4c97fa8d64d7361113c099bddc"
+          }
+        },
+        {
+          "client_id": "24021168035-tqkgqseki3naeeerh4meg6bsca6h38jt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBPx6XNCks9RBRyIuyeCfo3ccTofZGF_Vo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "24021168035-tqkgqseki3naeeerh4meg6bsca6h38jt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
