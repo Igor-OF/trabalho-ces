@@ -70,12 +70,12 @@ public class MainActivity extends AppCompatActivity {
                 .build();
 
         mGoogleSignInClient = new GoogleApiClient.Builder(this)
-                /*.enableAutoManage(this *//* FragmentActivity *//*, new GoogleApiClient.OnConnectionFailedListener() {
+                .enableAutoManage(this /* FragmentActivity */, new GoogleApiClient.OnConnectionFailedListener() {
                     @Override
                     public void onConnectionFailed(@NonNull ConnectionResult connectionResult) {
                         Toast.makeText(MainActivity.this, connectionResult.toString(), Toast.LENGTH_SHORT).show();
                     }
-                } *//* OnConnectionFailedListener *//*)*/
+                } /* OnConnectionFailedListener */)
                 .addApi(Auth.GOOGLE_SIGN_IN_API, gso)
                 .build();
     }
